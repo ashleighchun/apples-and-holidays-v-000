@@ -89,7 +89,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.each do |attribute, data|
       if data.include?("BBQ")
         puts "#{attribute}"
-        binding.pry
+        #binding.pry
       end
     end
   end
