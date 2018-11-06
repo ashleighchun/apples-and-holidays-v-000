@@ -92,9 +92,10 @@ def all_holidays_with_bbq(holiday_hash)
         bbq_holidays << attribute
         #binding.pry
       end
-      return bbq_holidays
+      
     end
   end
+  return bbq_holidays
 end
 
 
